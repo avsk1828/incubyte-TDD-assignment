@@ -21,6 +21,7 @@ print(add("1,8"))
 print(add("1\n2,3"))     
 print(add("//;\n1;2"))   
 print(add("//|\n1|2|3")) 
+print(add("//|\n2|2|333"))
 
 try:
     print(add("//;\n1;-2"))  
