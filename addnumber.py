@@ -16,7 +16,8 @@ def add(numbers: str) -> int:
 
 print(add(""))           
 print(add("1"))          
-print(add("1,5"))        
+print(add("1,5")) 
+print(add("1,8"))       
 print(add("1\n2,3"))     
 print(add("//;\n1;2"))   
 print(add("//|\n1|2|3")) 
